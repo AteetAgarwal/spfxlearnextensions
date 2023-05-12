@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+      "spfx-learn-extensions-bundle":{
+        "components": [
+          {
+            "entrypoint": "./lib/extensions/footerheaderappcustomizer/FooterheaderappcustomizerApplicationCustomizer.js",
+            "manifest": "./src/extensions/footerheaderappcustomizer/FooterheaderappcustomizerApplicationCustomizer.manifest.json"
+          },
+          {
+            "entrypoint": "./lib/extensions/scriptinjectionappcustomizer/ScriptinjectionappcustomizerApplicationCustomizer.js",
+            "manifest": "./src/extensions/scriptinjectionappcustomizer/ScriptinjectionappcustomizerApplicationCustomizer.manifest.json"
+          },
+          {
+            "entrypoint": "./lib/extensions/fieldcustomizerextension/FieldcustomizerextensionFieldCustomizer.js",
+            "manifest": "./src/extensions/fieldcustomizerextension/FieldcustomizerextensionFieldCustomizer.manifest.json"
+          }
+        ]
+      }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FooterheaderappcustomizerApplicationCustomizerStrings": "lib/extensions/footerheaderappcustomizer/loc/{locale}.js",
+    "ScriptinjectionappcustomizerApplicationCustomizerStrings": "lib/extensions/scriptinjectionappcustomizer/loc/{locale}.js",
+    "FieldcustomizerextensionFieldCustomizerStrings": "lib/extensions/fieldcustomizerextension/loc/{locale}.js"
+  }
+}

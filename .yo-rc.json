@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "16.18.0",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.9.1"
+    },
+    "version": "1.17.1",
+    "libraryName": "spfxlearnextensions",
+    "libraryId": "41f13874-1636-4414-a611-6dca618614be",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfxlearnextensions",
+    "solutionShortDescription": "spfxlearnextensions description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}

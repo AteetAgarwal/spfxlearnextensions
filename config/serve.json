@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://ngsp.sharepoint.com/Lists/SPMockData/AllItems.aspx",
+      "fieldCustomizers": {
+        "gender": {
+          "id": "69e91d63-57fd-4a05-a460-d37ab9ff1d04",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    },
+    "footerheaderappcustomizer": {
+      "pageUrl": "https://ngsp.sharepoint.com/SitePages/Home.aspx",
+      "customActions": {
+        "caf8673a-5970-4ffb-8dde-c621375dc5cb": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "scriptinjectionappcustomizer": {
+      "pageUrl": "https://ngsp.sharepoint.com/SitePages/Home.aspx",
+      "customActions": {
+        "7f488282-83ab-4180-8ed3-2e4b5645c3ab": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "fieldcustomizerextension": {
+      "pageUrl": "https://ngsp.sharepoint.com/Lists/SPMockData/AllItems.aspx",
+      "fieldCustomizers": {
+        "gender": {
+          "id": "69e91d63-57fd-4a05-a460-d37ab9ff1d04",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}

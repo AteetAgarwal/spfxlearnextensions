@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="Footerheaderappcustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="caf8673a-5970-4ffb-8dde-c621375dc5cb"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+    <ClientSideComponentInstance
+        Title="scriptinjectionappcustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="7f488282-83ab-4180-8ed3-2e4b5645c3ab"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
